@@ -1,0 +1,67 @@
+img {
+  display: block;
+  margin: 1rem auto;
+}
+.container {
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.gray {
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  height: 7rem;
+}
+
+input {
+  width: 15rem;
+}
+
+.box1 {
+  background-color: aqua;
+  float: left;
+  width: 29%;
+  margin-right: 5px;
+  height: 4rem;
+  padding: 16px 0;
+}
+
+.box2 {
+  background-color: rgb(24, 202, 202);
+  width: 20%;
+  margin-right: 5px;
+  float: left;
+  height: 4rem;
+  padding: 16px 0;
+}
+
+.box3 {
+  background-color: rgb(25, 143, 143);
+  float: left;
+  width: 50.4%;
+  height: 6rem;
+}
+
+.box3 p {
+  margin: 0;
+}
+
+.box3 input {
+  width: 15rem;
+}
+
+button {
+  background-color: rgb(177, 177, 177);
+  cursor: pointer;
+  height: 2rem;
+}
+
+.box1 > :first-child {
+  text-decoration: none;
+  color: black;
+}
+
+#copy {
+  margin: 8rem;
+  text-align: center;
+}
